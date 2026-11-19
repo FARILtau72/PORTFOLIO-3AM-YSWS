@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Faril</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #28301C ;
+        margin: 0;
+        padding: 0; 
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .blog-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .blog-container h1 {
+        text-align: center;
+        color: #4CAF50;
+    }
+
+    .container-blog {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f4f4f4;
+        border-radius: 5px;
+    }
+
+    .container-blog .card-1, .container-blog .card-2, .container-blog .card-3 {
+        background-color: #40600d97 ;
+        border: 1px solid #40600d97;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .container-blog .card-1 img, .container-blog .card-2 img, .container-blog .card-3 img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #4CAF50;
+        color: white;
+    }
+
+
+    @media (max-width: 600px) {
+        .container-blog {
+            padding: 10px;
+        }
+
+        .container-blog .card-1, .container-blog .card-2, .container-blog .card-3 {
+            padding: 10px;
+        }
+    }
+
+    
+
+k
+
+
+</style>
+<body>
+    <button onclick="window.location.href='index.html'" style="position: fixed; top: 20px; left: 20px; padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Back to Home</button>
+
+    <div class="blog-container">
+        <h1>Welcome to My Blog</h1>
+        <p>This is where I share my thoughts, experiences, and projects.</p>
+    </div>
+
+    <div class="container-blog">
+     <div class="card-1">
+        <img src="img/Blog1.png" alt="Blog 1" style="width:100%">
+        <h2>My First Blog Post</h2>
+        <p>In this post, I will share my journey into web development and the challenges I faced along the way.</p>
+        <a href="card1.html">Read More</a>
+     </div>
+     <div class="card-2">
+        <img src="img/Blog1.png" alt="Blog 2" style="width:100%">
+        <h2>Learning JavaScript</h2>
+        <p>JavaScript is a powerful language that allows you to create dynamic and interactive web applications. In this post, I will discuss some of the key concepts and techniques I learned while mastering JavaScript.</p>
+        <a href="card2.html">Read More</a>
+        </div>
+    <div class="card-3">
+        <img src="img/Blog1.png" alt="Blog 3" style="width:100%">
+        <h2>Exploring CSS Flexbox</h2>
+        <p>CSS Flexbox is a layout model that makes it easier to design flexible and responsive layouts. In this post, I will explain how to use Flexbox to create modern web designs.</p>
+        <a href="card3.html">Read More</a>
+    </div>
+    </div>
+
+    <div class="footer">
+    <p>&copy; 2026 My Blog. All rights reserved.</p>
+    </div>
+</body>
+</html>
