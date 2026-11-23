@@ -51,6 +51,39 @@ body {
     color: #ffffff;
 }
 
+.toogle-dark-mode {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.toggle-dark-mode .fas {
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.toggle-dark-mode .fas:hover {
+    color: #4CAF50;
+}
+
+.toggle-dark-mode .fa-moon {
+    display: inline-block;
+}
+
+.toggle-dark-mode .fa-sun {
+    display: none;
+}
+
+.dark-mode .fa-moon {
+    display: none;
+}
+
+.dark-mode .fa-sun {
+    display: inline-block;
+}
+
 
 .container {
     display: flex;
