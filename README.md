@@ -1,4 +1,4 @@
-```markdown
+
 # PORTFOLIO-3AM-YSWS — Faril Putra Pratama
 
 Website portofolio pribadi milik **Faril Putra Pratama** (**FarilDEVS**), siswa jurusan Rekayasa Perangkat Lunak (RPL) di **SMK Taruna Bangsa**.
